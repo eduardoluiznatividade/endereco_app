@@ -12,6 +12,9 @@
       	<li class="active">
       		<a href="/enderecos">Endereço</a>
       	</li>
+      	<li class="active">
+      		<a href="/estados">Estados</a>
+      	</li>
      </ul>
   </div>
 </nav>
