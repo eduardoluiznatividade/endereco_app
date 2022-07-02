@@ -1,6 +1,9 @@
 package br.edu.infnet.enderecoApp.model.domain;
 
+import javax.persistence.Id;
+
 public class Municipio {
+	@Id
 	private Integer id;
 	private String nome;
 	

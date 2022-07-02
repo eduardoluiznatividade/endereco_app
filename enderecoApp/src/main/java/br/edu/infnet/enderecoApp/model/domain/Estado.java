@@ -1,6 +1,9 @@
 package br.edu.infnet.enderecoApp.model.domain;
 
+import javax.persistence.Id;
+
 public class Estado {
+	@Id
 	private Integer id;
 	private String sigla;
 	private String nome;
