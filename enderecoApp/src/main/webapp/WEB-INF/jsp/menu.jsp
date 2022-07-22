@@ -9,12 +9,27 @@
     	<li class="active">
       		<a href="/">Home</a>
       	</li>
-      	<li class="active">
-      		<a href="/enderecos">Endereço</a>
-      	</li>
-      	<li class="active">
+      	<c:if test="${not empty user}">
+      		<li class="active">
+      			<a href="/enderecos">Endereço</a>
+      		</li>
+      		  	<li class="active">
       		<a href="/estados">Estados</a>
       	</li>
+      	</c:if>
+       	<c:if test="${not empty user}">
+      		<li class="active">
+      			<a href="/logout">Logout</a>
+      		</li>
+      	</c:if>
+     	<c:if test="${empty user}">
+      		<li class="active">
+	      		<a href="/usuario">Signup</a>
+	      	</li>
+	      	<li class="active">
+      			<a href="/login">Login</a>
+      		</li>
+      	</c:if>
      </ul>
   </div>
 </nav>

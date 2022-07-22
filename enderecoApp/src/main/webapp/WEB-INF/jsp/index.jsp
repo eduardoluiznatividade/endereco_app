@@ -12,7 +12,7 @@
 	<c:import url="/WEB-INF/jsp/menu.jsp"/>
 	
 	<div class="container mt-3">
-	  <h2>AppEndereco: Sistema de gerenciamento de endereçoc</h2>
+	  <h2>AppEndereco: Sistema de gerenciamento de endereço</h2>
 	</div>
 </body>
 </html>
